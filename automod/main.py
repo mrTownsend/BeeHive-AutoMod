@@ -1,7 +1,6 @@
 # date | month | year
 __version__ = "08.09.2020"
-__author__ = ("Bread#0007", 280730525960896513)
-__credits__ = ["xBlynd"]
+__author__ = ("@mrTownsend", 444108218055262219)
 __status__ = "Production"
 
 import dataclasses

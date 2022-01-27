@@ -13,7 +13,7 @@ async def maybe_add_role(
     if has_role:
         return
     await user.add_roles(
-        role, reason="Automod rule add",
+        role, reason="AutoMod",
     )
 
 

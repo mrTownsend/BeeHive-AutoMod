@@ -115,7 +115,7 @@ class Settings:
         settings = await self.get_all_settings(guild)
         setting: BaseRuleSettingsDisplay
         embed = discord.Embed(
-            title="⚙ AutoMod settings",
+            title="⚙ AutoMod Settings",
             description=f"For a more detailed view of an individual rule: `[p]automodset show <rule_name>`.\n",
         )
         for index, setting in enumerate(settings, 1):
@@ -200,7 +200,7 @@ class Settings:
 
     @automodset.command(name="version", aliases=["v", "ver"])
     async def _show_version(self, ctx):
-        """Show version of Automod"""
+        """Show version of AutoMod"""
         from .main import __version__
         return await ctx.send(f"Current AutoMod version: `{__version__}`.")
 

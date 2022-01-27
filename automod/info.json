@@ -1,8 +1,8 @@
 {
     "author": [
-        "Bread#0007"
+        "mrTownsend"
     ],
-    "description": "Automoderated actions with settings at a granular level.",
+    "description": "Basic chat automoderation module",
     "hidden": false,
     "install_msg": "Thank you for installing AutoMod!\nSetup your announcement channel with `[p]automodset announce channel`",
     "requirements": ["async_lru", "tabulate"],
